@@ -180,4 +180,8 @@ if st.sidebar.button("Generate", type="primary"):
     st.markdown(solution)
 
 
-    
+    # Click to expand section for displaying full API response
+    st.markdown("### Full API Response:")
+    with st.expander("Click to Expand", expanded=False):
+        if api_response:  # Check if API response is not None
+            st.json(api_response)  # Display the full API response in a readable format
