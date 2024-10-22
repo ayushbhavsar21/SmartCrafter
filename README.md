@@ -1,1 +1,1 @@
-# smart-contract-generator
+# SmartCrafter
