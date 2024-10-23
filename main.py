@@ -34,6 +34,9 @@ st.markdown(
     @media only screen and (max-width: 600px) {
         .broadway-font {
             font-size: 24px;
+            font-family: 'Broadway', sans-serif;
+            font-style: italic;
+            color: #000;
         }
     }
     </style>
